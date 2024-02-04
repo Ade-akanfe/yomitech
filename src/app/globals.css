@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.curve {
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 4rem !important;
+}
+.curve_left{
+  border-top-right-radius: 5rem !important;
+  border-bottom-left-radius: 4rem;
+}
