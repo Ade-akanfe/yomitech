@@ -13,8 +13,8 @@ const WhatSecond = () => {
           </p>
           <div className="w-4/5 text-center xl:text-start xl:w-1/2 text-sm xl:text-xl tracking-wide text-deep_blue">
             Unique Solution/Service: Mobile car body repair unit. We offer a
-            mobile unit that can come to the customer's location to assess and
-            repair their car body damage. This provides a convenient and
+            mobile unit that can come to the customer &#39;s location to assess
+            and repair their car body damage. This provides a convenient and
             efficient solution for customers who are unable to bring their
             vehicle to a traditional repair shop.
           </div>
@@ -43,7 +43,7 @@ const WhatSecond = () => {
             <span className="w-full text-gray-500">
               We address the need for maintaining the aesthetics of a vehicle by
               providing services to repair dents, scratches, and paint damage,
-              ensuring that our customers' cars look as good as new.
+              ensuring that our customers &#39; cars look as good as new.
             </span>
           </div>
           <div className=" w-3/5 xl:w-2/5 h-72 xl:h-64 ">
@@ -68,7 +68,7 @@ const WhatSecond = () => {
             </span>
             <span className="w-full text-gray-500">
               We help our customers maintain the resale value of their vehicles
-              by providing high-quality repairs that restore the car's
+              by providing high-quality repairs that restore the car &#39;s
               appearance and structural integrity.
             </span>
           </div>

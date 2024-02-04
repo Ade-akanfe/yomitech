@@ -14,6 +14,7 @@ const HomePage = () => {
             objecFit: "cover",
             objectPosition: "center center",
           }}
+          alt="yomitech background image"
         />
       </div>
       <div className="absolute bg-deep_blue h-screenVal w-full z-20 opacity-75"></div>

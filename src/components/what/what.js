@@ -59,7 +59,7 @@ const What = () => {
               Customer Service
             </p>
             <p className="w-4/5 text-sm text-center text-gray-600">
-              Priortizing customer's needs and providing a positive experience
+              Priortizing customer &#39; s needs and providing a positive experience
               throughout the repair process
             </p>
           </div>
@@ -76,7 +76,7 @@ const What = () => {
               Customer Service
             </p>
             <p className="w-11/12 text-xs xl:text-sm text-center text-gray-600">
-              Priortizing customer's needs and providing a positive experience
+              Priortizing customer &#39; s needs and providing a positive experience
               throughout the repair process
             </p>
           </div>

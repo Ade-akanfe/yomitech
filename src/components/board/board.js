@@ -18,6 +18,7 @@ const Footer = () => {
                   objecFit: "cover",
                   objectPosition: "center center",
                 }}
+                alt="Yomitech logo"
               />
             </div>
             <div className="flex flex-col font-semibold items-center justify-center text-2xl text-purple">

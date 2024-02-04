@@ -14,6 +14,7 @@ const HeaderComponent = () => {
               src={Logo.src}
               fill
               sized="100vw"
+              alt="yomitech's logo"
               quality={100}
               style={{
                 objecFit: "cover",
