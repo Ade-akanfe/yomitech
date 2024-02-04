@@ -1,6 +1,6 @@
 import HeaderComponent from "@/components/header/header";
 import "./globals.css";
-import image1 from "./node.png";
+import image1 from "@/assets/logo.jpg";
 
 export const metadata = {
   title: "YOMTECH LIMITED",

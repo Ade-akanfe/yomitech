@@ -27,6 +27,9 @@ module.exports = {
       height: {
         screenVal: "calc(100vh - 8rem)",
       },
+      screens: {
+        xs: "320px",
+      },
     },
   },
   plugins: [],
