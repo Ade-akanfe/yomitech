@@ -2,44 +2,40 @@ import image1 from "@/assets/29019.jpg";
 import Image from "next/image";
 
 const HomePage = () => {
-  
   return (
-    <div className="flex flex-row justify-evenly h-screenVal bg-white items-center">
-      <div className="w-full flex justify-center items-center h-full flex-col">
-        <div>
-          <div>
-            <p className="text-deep_blue font-bold text-6xl text-left">
-              YOMTECH
-            </p>
-            <p className="text-deep_blue font-bold text-6xl text-left">
-              LIMITED
-            </p>
-          </div>
-          <div>
-            <p className="text-gray-500 text-xl text-left">
-              Automobile Car Body
-            </p>
-            <p className="text-gray-500 text-xl text-left">Repairs Company</p>
-          </div>
-          <div className="text-gray-600 text-md text-left font-light">
-            <p>Offers a range of repair options at different Offers a range</p>
-            <p>of repair options at different price points</p>
-            <p> to accomodate customers with varying budgets</p>
-          </div>
-          <div className="w-1/2 flex justify-end items-center py-5">
-            <div className="py-2 px-14 rounded-lg bg-deep_blue text-white font-semibold  hover:bg-white hover:text-deep_blue shadow-2xl shadow-gray-900">Book Us</div>
-          </div>
-        </div>
+    <div className="flex flex-col justify-evenly h-screenVal items-center ">
+      <div className="h-screenVal w-full relative z-10">
+        <Image
+          src={image1.src}
+          fill
+          sized="100vw"
+          quality={100}
+          style={{
+            objecFit: "cover",
+            objectPosition: "center center",
+          }}
+        />
       </div>
-      <div className="w-full h-full flex justify-center items-center">
-        <div className="relative">
-          <Image
-            src={image1.src}
-            blurDataURL={image1.blurDataURL}
-            width={700}
-            height={600}
-            className=""
-          />
+      <div className="absolute bg-deep_blue h-screenVal w-full z-20 opacity-75"></div>
+      <div className="absolute h-full w-full z-30 ">
+        <div className="flex w-full h-full justify-center items-center flex-col">
+          <p className="text-xl xs:text-3xl xl:text-7xl font-semibold text-white">
+            YOMTECH LIMITED
+          </p>
+          <p className="text-sm xs:text-lg xl:text-xl pt-6 text-gray-400 w-4/5 xl:w-5/12 text-center tracking-widest">
+            Car body repairs and advanced spray painting accident refurbishment
+          </p>
+          <p className="text-sm xs:text-md xl:text-lg pt-6 text-gray-400  w-4/5 xl:w-3/6 text-center tracking-widest">
+            Offer a range of repair options at different price points to
+            accommodate customers with varying budgets.
+          </p>
+          <p className="text-sm xs:text-lg xl:text-xl py-6 text-gray-400 w-4/5 xl:w-5/12 text-center tracking-widest lowercase">
+            OFFICE ADDRESS: UNIT 8, COBHAMS ROAD, B9 4UP, BIRMINGHAMWEST
+            MIDLANDS
+          </p>
+          <p className="text-sm xs:text-md xl:text-xl font-semibold cursor-pointer py-2 text-border_blue w-32 xs:w-3/5 xl:w-3/12 text-center bg-white border-border_blue rounded-2xl border-2">
+            Book Us
+          </p>
         </div>
       </div>
     </div>

@@ -14,9 +14,9 @@ export default function Home() {
       <What />
       <WhatSecond />
       <WhatThird />
-      <Board />
       <Feedback />
       <FeedbackTwo />
+      <Board />
     </main>
   );
 }

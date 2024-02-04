@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href={image1.src} />
       </head>
-      <body className="bg-deep_blue">
+      <body className="bg-deep_blue z-30 relative">
         <HeaderComponent />
         {children}
       </body>

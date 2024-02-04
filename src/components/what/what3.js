@@ -201,16 +201,18 @@ const WhatThird = () => {
   return (
     <div className="h-auto flex justify-center items-center flex-col w-full">
       <div className="w-4/5 my-9">
-        <div className="flex justify-between items-center">
-          <div className="w-2/5 flex relative text-gray-200">
-            Our car body repair business addresses
-            <br /> the major problem of accidents and collisions that can damage
-            the exterior of a vehicle, leaving it in need of repair.
-            <span className="inline bg-black h-1 absolute right-16 top-0">
-              <Direction />
-            </span>
+        <div className="flex flex-col xl:flex-row justify-between items-center">
+          <div className="xl:w-2/5 flex flex-col relative text-gray-200">
+            <p className="text-center text-lg mb-2 flex w-full items-center justify-center capitalize">
+              Our car body repair business{" "}
+              <span className="inline h-auto ml-2 ">
+                <Direction />
+              </span>
+            </p>
+            Addresses the major problem of accidents and collisions that can
+            damage the exterior of a vehicle, leaving it in need of repair.
           </div>
-          <div className="w-2/5 relative ">
+          <div className=" xl:w-2/5 relative text-gray-400 mt-4 xl:mt-0">
             <span className="text-gray-200 text-sm">
               Ensuring that repaired vehicles meet safety standards and are
               returned to customers in a safe condition.

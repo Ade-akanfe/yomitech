@@ -18,6 +18,10 @@ module.exports = {
         white: "#fff",
         red: "#7c2d14",
         dark_purple: "#670370",
+        border_blue: "#0B0088",
+      },
+      borderRadius: {
+        roundedem: "5rem",
       },
 
       height: {

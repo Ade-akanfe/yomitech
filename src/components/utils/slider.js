@@ -34,9 +34,9 @@ const ImageSlider = ({ slides, currentIndex, nextIndex, prevIndex }) => {
 
   return (
     <div style={slidestyles} className="flex justify-evenly ">
-      <div style={styles01}></div>
+      <div style={styles01} className="hidden xl:block"></div>
       <div style={styles} className="mx-2"></div>
-      <div style={styles02}></div>
+      <div style={styles02} className="hidden xl:block"></div>
     </div>
   );
 };
