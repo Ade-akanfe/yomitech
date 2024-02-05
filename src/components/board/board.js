@@ -22,7 +22,7 @@ const Footer = () => {
               />
             </div>
             <div className="flex flex-col font-bold items-center justify-center text-2xl text-white">
-              <span>YOMTCH</span>
+              <span>YOMITCH</span>
               <span>LIMITED</span>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             accommodate customers with varying budgets.
           </div>
           <div className="text-gray-400 text-lg xl:text-xl mb-6 lowercase">
-            OFFICE ADDRESS: UNIT 8, COBHAMS ROAD,B9 4UP, BIRMINGHAMWEST MIDLANDS
+            OFFICE ADDRESS: UNIT 8, COBHAMS BUSINESS CENTER OFF COBHAMS ROAD, BIRMINGHAM WEST, MIDLANDS, UK
           </div>
         </div>
         <div className="w-full xl:w-auto h-auto flex flex-col justify-center items-center xl:items-start">
