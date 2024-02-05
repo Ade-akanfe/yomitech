@@ -22,7 +22,7 @@ const Footer = () => {
               />
             </div>
             <div className="flex flex-col font-bold  text-2xl text-white">
-              <span className="w-full">YOMITECH</span>
+              <span className="w-full">YOMTECH</span>
               <span className="">LIMITED</span>
             </div>
           </div>
