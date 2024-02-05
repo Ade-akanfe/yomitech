@@ -14,7 +14,8 @@ const Feedback = () => {
             <Location />
           </span>
           <span className="text-white xl:text-xl my-2">
-            UNIT 8, COBHAMS ROAD, B9 4UP, BIRMINGHAMWEST MIDLANDS
+            OFFICE ADDRESS: UNIT 8, COBHAMS BUSINESS CENTER OFF COBHAMS ROAD,
+            BIRMINGHAM WEST, MIDLANDS, UK
           </span>
         </div>
         <div className="flex justify-center items-center text-center flex-col">

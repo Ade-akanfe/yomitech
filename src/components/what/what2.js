@@ -13,11 +13,11 @@ const WhatSecond = () => {
             What we Offer to serve you best
           </p>
           <div className="w-4/5 text-start xl:w-1/2 text-sm xl:text-xl tracking-wide text-deep_blue">
-            Unique Solution/Service: Mobile car body repair unit. We offer a
-            mobile unit that can come to the customer &#39;s location to assess
-            and repair their car body damage. This provides a convenient and
-            efficient solution for customers who are unable to bring their
-            vehicle to a traditional repair shop.
+            Unique Solution/Service: We offer a recovery unit that can come to
+            thecustomer&#39; location to assess and repair their car body
+            damage. This provides a convinient and efficient solution for
+            customer who are unable to bring their vehicle to a traditional
+            repair shop
           </div>
         </div>
         <div className="h-full flex w-full xl:w-2/3 flex-row justify-evenly items-center flex-wrap">

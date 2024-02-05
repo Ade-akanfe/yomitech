@@ -21,9 +21,9 @@ const Footer = () => {
                 alt="Yomitech logo"
               />
             </div>
-            <div className="flex flex-col font-bold items-center justify-center text-2xl text-white">
-              <span>YOMITCH</span>
-              <span>LIMITED</span>
+            <div className="flex flex-col font-bold  text-2xl text-white">
+              <span className="w-full">YOMITECH</span>
+              <span className="">LIMITED</span>
             </div>
           </div>
           <div className="text-gray-400 text-lg xl:text-xl my-6 capitalize">
@@ -34,7 +34,8 @@ const Footer = () => {
             accommodate customers with varying budgets.
           </div>
           <div className="text-gray-400 text-lg xl:text-xl mb-6 lowercase">
-            OFFICE ADDRESS: UNIT 8, COBHAMS BUSINESS CENTER OFF COBHAMS ROAD, BIRMINGHAM WEST, MIDLANDS, UK
+            OFFICE ADDRESS: UNIT 8, COBHAMS BUSINESS CENTER OFF COBHAMS ROAD,
+            BIRMINGHAM WEST, MIDLANDS, UK
           </div>
         </div>
         <div className="w-full xl:w-auto h-auto flex flex-col justify-center items-center xl:items-start">
