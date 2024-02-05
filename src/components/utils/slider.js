@@ -35,11 +35,11 @@ const ImageSlider = ({ slides, currentIndex, nextIndex, prevIndex }) => {
   return (
     <div
       style={slidestyles}
-      className="flex flex-col xl:flex-row justify-evenly "
+      className="flex flex-col xl:flex-row justify-evenly landscape:flex-row "
     >
-      <div style={styles01} className="hidden xl:block "></div>
-      <div style={styles} className="xl:mx-2"></div>
-      <div style={styles02} className="block my-6 xl:my-0"></div>
+      <div style={styles01} className="hidden "></div>
+      <div style={styles} className="xl:mx-2 landscape:mr-2"></div>
+      <div style={styles02} className="block my-6 xl:my-0 landscape:my-0"></div>
     </div>
   );
 };

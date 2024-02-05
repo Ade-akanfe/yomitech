@@ -20,7 +20,7 @@ const HomePage = () => {
       <div className="absolute bg-deep_blue h-screenVal w-full z-20 opacity-75"></div>
       <div className="absolute h-full w-full z-30 ">
         <div className="flex w-full h-full justify-center items-center flex-col">
-          <p className="text-xl xs:text-3xl xl:text-7xl landscape:-mb-5 font-semibold text-white">
+          <p className="text-xl xs:text-3xl xl:text-7xl landscape:-mb-2 font-semibold text-white">
             YOMTECH LIMITED
           </p>
           <p className="text-sm xs:text-lg xl:text-xl pt-6 landscape:pt-2 text-gray-400 w-4/5 xl:w-5/12 max-w-xl text-center tracking-widest">
