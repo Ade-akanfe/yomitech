@@ -21,7 +21,7 @@ const Feedback = () => {
           <span className="rounded-3xl bg-purple h-12 w-12 xl:h-14 xl:w-14  flex justify-center items-center">
             <Envelope />
           </span>
-          <span className="texth-14 w-14-white xl:text-xl my-2">INFO@YOMTECH.CO.UK</span>
+          <span className="text-white xl:text-xl my-2">INFO@YOMTECH.CO.UK</span>
         </div>
         <div className="flex justify-center items-center text-center flex-col">
           <span className="rounded-3xl bg-purple h-12 w-12 xl:h-14 xl:w-14  flex justify-center items-center">

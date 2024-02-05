@@ -30,8 +30,8 @@ const HomePage = () => {
             Offer a range of repair options at different price points to
             accommodate customers with varying budgets.
           </p>
-          <p className="text-sm xs:text-lg xl:text-xl py-6 text-gray-400 w-4/5 xl:w-5/12 text-center tracking-widest lowercase">
-            OFFICE ADDRESS: UNIT 8, COBHAMS ROAD, B9 4UP, BIRMINGHAMWEST
+          <p className="text-sm xs:text-md xl:text-lg py-6 text-gray-400  w-4/5 xl:w-3/6 text-center tracking-widest">
+            OFFICE ADDRESS: UNIT 8, COBHAMS ROAD, B9 4UP, BIRMINGHAM WEST
             MIDLANDS
           </p>
           <p className="text-sm xs:text-md xl:text-xl font-semibold cursor-pointer py-2 text-border_blue w-32 xs:w-3/5 xl:w-3/12 text-center bg-white border-border_blue rounded-2xl border-2">

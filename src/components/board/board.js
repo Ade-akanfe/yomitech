@@ -21,7 +21,7 @@ const Footer = () => {
                 alt="Yomitech logo"
               />
             </div>
-            <div className="flex flex-col font-semibold items-center justify-center text-2xl text-purple">
+            <div className="flex flex-col font-bold items-center justify-center text-2xl text-white">
               <span>YOMTCH</span>
               <span>LIMITED</span>
             </div>
@@ -46,13 +46,13 @@ const Footer = () => {
               <Link href="#">Home</Link>
             </li>
             <li className="xl:my-5">
-              <Link href="#">About us</Link>
+              <Link href="#about">About us</Link>
             </li>
             <li>
-              <Link href="#">Our Services</Link>
+              <Link href="#service">Our Services</Link>
             </li>
             <li className="xl:my-6">
-              <Link href="#">Contact us</Link>
+              <Link href="#contact">Contact us</Link>
             </li>
           </ul>
         </div>

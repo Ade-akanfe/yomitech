@@ -1,9 +1,9 @@
-const Vial = () => (
+const Vial = ({ height }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
     fill="#fff"
-    height="30"
+    height={height ? height : "30"}
   >
     <path
       className="bg-purple text-purple"

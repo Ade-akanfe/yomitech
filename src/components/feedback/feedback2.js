@@ -18,7 +18,7 @@ const FeedbackTwo = () => {
           <input className="bg-deep_blue px-4 py-2 w-full outline-none focus:outline-none border-none focus:border-none text-white" />
         </div>
         <span className="h-5"></span>
-        <div className="flex overflow-hidden py-2 w-11/12 xl:w-8/12 justify-center items-center text-center flex-row bg-white h-auto rounded-md px-1">
+        <div className="flex overflow-hidden py-1 w-11/12 xl:w-8/12 justify-center items-center text-center flex-row bg-white h-auto rounded-md px-1">
           <textarea
             row={20}
             col={10}

@@ -11,7 +11,7 @@ const WhatSecond = () => {
           <p className=" w-full text-center xl:text-start xl:w-1/2 tracking-wider mb-3 text-xl xl:text-4xl text-deep_blue font-semibold">
             What we Offer to serve you best
           </p>
-          <div className="w-4/5 text-center xl:text-start xl:w-1/2 text-sm xl:text-xl tracking-wide text-deep_blue">
+          <div className="w-4/5 text-start xl:w-1/2 text-sm xl:text-xl tracking-wide text-deep_blue">
             Unique Solution/Service: Mobile car body repair unit. We offer a
             mobile unit that can come to the customer &#39;s location to assess
             and repair their car body damage. This provides a convenient and
@@ -20,7 +20,7 @@ const WhatSecond = () => {
           </div>
         </div>
         <div className="h-full flex w-full xl:w-2/3 flex-row justify-evenly items-center flex-wrap">
-          <div className="w-3/5 xl:w-2/5 h-72 xl:h-64 mt-3 xl:mt-0 ">
+          <div className="w-4/5  xl:w-2/5 h-64 mt-8 xl:mt-0 ">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
               <Accident />
             </div>
@@ -33,7 +33,7 @@ const WhatSecond = () => {
               vehicle, leaving it in need of repair.
             </span>
           </div>
-          <div className="w-3/5 xl:w-2/5 h-72 xl:h-64 ">
+          <div className="w-4/5 xl:w-2/5 h-64 ">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
               <Car />
             </div>
@@ -46,7 +46,7 @@ const WhatSecond = () => {
               ensuring that our customers &#39; cars look as good as new.
             </span>
           </div>
-          <div className=" w-3/5 xl:w-2/5 h-72 xl:h-64 ">
+          <div className=" w-4/5 xl:w-2/5 h-64 ">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
               <HeadSet />
             </div>
@@ -59,7 +59,7 @@ const WhatSecond = () => {
               and providing peace of mind to our customers.
             </span>
           </div>
-          <div className="w-3/5 xl:w-2/5 h-72 xl:h-64 ">
+          <div className="w-4/5 xl:w-2/5 h-64 ">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
               <Wallet />
             </div>
@@ -72,7 +72,7 @@ const WhatSecond = () => {
               appearance and structural integrity.
             </span>
           </div>
-          <div className="w-3/5 h-64 xl:justify-center xl:flex xl:items-center flex-col mb-6 xl:mb-0">
+          <div className="w-4/5 h-64 xl:justify-center xl:flex xl:items-center flex-col mb-6 xl:mb-0">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
               <Wallet />
             </div>

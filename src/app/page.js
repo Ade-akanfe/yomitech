@@ -10,11 +10,26 @@ import WhatThird from "@/components/what/what3";
 export default function Home() {
   return (
     <main>
-      <HomePage />
-      <What />
-      <WhatSecond />
+      <div>
+        <a id="/">
+          <HomePage />
+        </a>
+      </div>
+      <div>
+        <a id="about">
+          <What />
+        </a>
+      </div>
+      <div>
+        <a id="service">
+          <WhatSecond />
+        </a>
+      </div>
       <WhatThird />
-      <Feedback />
+      <div>
+        <a id="contact"></a>
+        <Feedback />
+      </div>
       <FeedbackTwo />
       <Board />
     </main>
