@@ -75,7 +75,7 @@ const WhatSecond = () => {
           </div>
           <div className="w-4/5 max-w-xs h-64 xl:justify-center xl:flex xl:items-center flex-col mb-6 xl:mb-0">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
-              <HeadSet />
+              <HeadSet height={"20"} />
             </div>
             <span className="flex font-semibold text-deep_blue my-3">
               Customer Convenience
