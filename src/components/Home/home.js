@@ -31,8 +31,8 @@ const HomePage = () => {
             accommodate customers with varying budgets.
           </p>
           <p className="text-sm xs:text-md xl:text-lg py-6 landscape:py-3 text-gray-400  w-4/5 max-w-xl xl:w-3/6 text-center tracking-widest">
-            OFFICE ADDRESS: UNIT 8, COBHAMS BUSINESS CENTER OFF COBHAMS ROAD,
-            BIRMINGHAM WEST, MIDLANDS, UK
+            Unit 8, Cobham Business Centre Off Cobham Road, Birmingham, West
+            Midlands, United Kingdom. B9 4UP
           </p>
           <p className="text-sm xs:text-md xl:text-xl font-semibold cursor-pointer py-2 text-border_blue w-32 xs:w-3/5 xl:w-3/12 max-w-64 text-center bg-white border-border_blue rounded-2xl border-2">
             Book Us
