@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="w-full bg-deep_blue h-auto justify-center items-center">
+    <div className="w-full flex flex-col bg-deep_blue h-auto justify-center items-center">
       <div className="w-full h-1 bg-white mb-10"></div>
-      <div className=" w-full xl:w-5/6  flex justify-evenly items-center flex-col xl:flex-row">
+      <div className=" w-full xl:w-5/6 max-w-6xl  flex justify-evenly items-center flex-col xl:flex-row">
         <div className="w-4/5 xl:w-1/3">
           <div className="flex w-full">
             <div className="relative h-16 w-16 mr-2">

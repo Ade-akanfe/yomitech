@@ -1,12 +1,13 @@
 import Accident from "@/assets/icons/car-burst-solid";
 import Car from "@/assets/icons/car-solid";
 import HeadSet from "@/assets/icons/headset-solid";
+import Helment from "@/assets/icons/helmet-safety-solid";
 import Wallet from "@/assets/icons/wallet-solid";
 
 const WhatSecond = () => {
   return (
-    <div className="bg-white h-auto py-4 mt-4 ">
-      <div className="w-full xl:w-11/12 flex  flex-col xl:flex-row justify-evenly">
+    <div className="bg-white h-auto py-4 mt-4 flex justify-center items-center ">
+      <div className="w-full max-w-8xl xl:w-11/12 flex flex-col xl:flex-row justify-evenly">
         <div className="h-auto flex w-full xl:w-3/4 justify-center items-center flex-col">
           <p className=" w-full text-center xl:text-start xl:w-1/2 tracking-wider mb-3 text-xl xl:text-4xl text-deep_blue font-semibold">
             What we Offer to serve you best
@@ -48,7 +49,7 @@ const WhatSecond = () => {
           </div>
           <div className=" w-4/5 xl:w-2/5 h-64 ">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
-              <HeadSet />
+              <Helment height={"20"}/>
             </div>
             <span className="flex font-semibold text-deep_blue my-3">
               Safety Concerns
@@ -72,7 +73,7 @@ const WhatSecond = () => {
               appearance and structural integrity.
             </span>
           </div>
-          <div className="w-4/5 h-64 xl:justify-center xl:flex xl:items-center flex-col mb-6 xl:mb-0">
+          <div className="w-4/5 max-w-xs h-64 xl:justify-center xl:flex xl:items-center flex-col mb-6 xl:mb-0">
             <div className="flex justify-center items-center rounded-full bg-black h-10 w-10 ">
               <Wallet />
             </div>

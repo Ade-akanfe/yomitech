@@ -19,8 +19,8 @@ const What = () => {
         </div>
         {/* 1,2,3 */}
         <div className="w-full h-full flex flex-row flex-wrap justify-center items-center">
-          <div className="w-5/12 xl:w-3/12 h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 rounded-tl-roundedem">
-            <p className="w-full flex items-center justify-center mb-6 mt-2 ">
+          <div className="w-5/12 max-w-xs xl:w-3/12 h-60 flex justify-center  items-center flex-col border-2 rounded-md bg-gray-950 rounded-tl-roundedem">
+            <p className="w-4/5 xl:w-full flex  xl:items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 xl:h-14 xl:w-14 flex justify-center items-center">
                 <Vial height="20" />
               </span>
@@ -34,22 +34,22 @@ const What = () => {
             </p>
           </div>
           <span className="w-3 xl:w-5"></span>
-          <div className="w-5/12 xl:w-3/12 h-60 flex justify-center items-center flex-col border-2  rounded-tr-roundedem xl:rounded-md bg-gray-950">
-            <p className="w-full flex items-center justify-center mb-6 mt-2 ">
+          <div className="w-5/12 xl:w-3/12 max-w-xs h-60 flex justify-center items-center flex-col border-2  rounded-tr-roundedem xl:rounded-md bg-gray-950">
+            <p className=" w-5/6 xl:w-full flex items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 xl:h-14 xl:w-14 flex justify-center items-center">
                 <Person height="20" />
               </span>
             </p>
-            <p className="w-full text-sm xl:text-lg text-center text-white font-semibold mb-2">
+            <p className="xl:w-full text-sm xl:text-lg text-center text-white font-semibold mb-2">
               Honesty and Integrity
             </p>
-            <p className="w-4/5 text-xs xl:text-sm xl:text-center text-gray-300">
+            <p className="w-5/6 xl:w-4/5 text-xs xl:text-sm xl:text-center text-gray-300">
               Conducting business with transparency and ethical behaviour,
               providing accurate assessments and fair pricing
             </p>
           </div>
           <span className="xl:w-5 hiddem xl:block"></span>
-          <div className="w-3/12 h-60 hidden xl:flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 rounded-tr-roundedem">
+          <div className="w-3/12 h-60 hidden max-w-xs xl:flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 rounded-tr-roundedem">
             <p className="w-full flex items-center justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-14 w-14 flex justify-center items-center">
                 <HeadSet />
@@ -67,7 +67,7 @@ const What = () => {
         <div className="h-3 block xl:hidden"></div>
         <div className="w-full h-full flex xl:hidden flex-row flex-wrap justify-center items-center">
           <div className="w-5/12 h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 ">
-            <p className="w-full flex items-center justify-center mb-6 mt-2 ">
+            <p className="w-4/5 xl:w-full flex xl:items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 flex justify-center items-center">
                 <HeadSet height="20" />
               </span>
@@ -82,7 +82,7 @@ const What = () => {
           </div>
           <span className="w-3"></span>
           <div className="w-5/12 h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950">
-            <p className="w-full flex items-center justify-center mb-6 mt-2 ">
+            <p className="w-4/5 xl:w-full flex xl:items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 flex justify-center items-center">
                 <Seedling height="20" />
               </span>
@@ -98,10 +98,10 @@ const What = () => {
         </div>
         <div className="h-3"></div>
         <div className="w-full h-full flex flex-row flex-wrap justify-center items-center">
-          <div className="w-5/12 xl:w-3/12 h-64 xl:h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 rounded-bl-roundedem">
-            <p className="w-full flex items-center justify-center mb-6 mt-2 ">
+          <div className="w-5/12 max-w-xs xl:w-3/12 h-64 xl:h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 rounded-bl-roundedem">
+            <p className="w-4/5 xl:w-full flex xl:items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 xl:h-14 xl:w-14 flex justify-center items-center">
-                <ProgressBar height="30" />
+                <ProgressBar height="20" />
               </span>
             </p>
             <p className="w-4/5 xl:w-full xl:text-center text-xs xl:text-lg text-white font-semibold mb-2">
@@ -113,7 +113,7 @@ const What = () => {
             </p>
           </div>
           <span className="hidden xl:block xl:w-5"></span>
-          <div className="w-3/12  xl:h-60 hidden xl:flex justify-center items-center flex-col border-2 rounded-md bg-gray-950">
+          <div className="w-3/12 max-w-xs xl:h-60 hidden xl:flex justify-center items-center flex-col border-2 rounded-md bg-gray-950">
             <p className="w-full flex items-center justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 xl:h-14 xl:w-14 flex justify-center items-center">
                 <Seedling height={"20"} />
@@ -127,8 +127,8 @@ const What = () => {
             </p>
           </div>
           <span className="w-3 xl:w-5"></span>
-          <div className="w-5/12 xl:w-3/12 h-64 xl:h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 rounded-br-roundedem">
-            <p className="w-full flex items-center justify-center mb-6 mt-2 ">
+          <div className="w-5/12 max-w-xs xl:w-3/12 h-64 xl:h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 rounded-br-roundedem">
+            <p className="w-4/5 xl:w-full flex xl:items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 xl:h-14 xl:w-14 flex justify-center items-center">
                 <Helment height="20" />
               </span>

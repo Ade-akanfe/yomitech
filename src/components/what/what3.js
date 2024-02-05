@@ -36,7 +36,7 @@ import Image32 from "@/assets/images/32.jpg";
 import Image33 from "@/assets/images/33.jpg";
 import Image34 from "@/assets/images/34.jpg";
 import ImageSlider from "../utils/slider";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const WhatThird = () => {
   const slides = [
@@ -198,22 +198,30 @@ const WhatThird = () => {
     setPrevIndex((prev) => (newIndex === 0 ? slides.length - 1 : newIndex - 1));
     setNextIndex((prev) => (newIndex === slides.length - 1 ? 0 : newIndex + 1));
   };
+  useEffect(() => {
+    const interval = setInterval(() => nextHandler(), 4000);
+    return () => clearInterval(interval);
+  });
   return (
     <div className="h-auto flex justify-center items-center flex-col w-full">
-      <div className="w-4/5 my-9">
-        <div className="flex flex-col xl:flex-row justify-between items-center">
-          <div className="xl:w-2/5 flex flex-col relative text-gray-200">
-            <p className="text-center text-lg mb-2 flex w-full items-center justify-center capitalize">
+      <div className="w-full xl:w-4/5 my-9 flex flex-col justify-center items-center max-w-7xl">
+        <div className="flex w-full flex-col xl:flex-row max-w-6xl justify-between items-center mb-6 h-auto">
+          <div className="w-full max-w-80 xl:items-center xl:w-2/5 flex flex-col relative text-gray-200 xl:justify-center">
+            <p className="w-auto text-lg mb-2 flex xl:w-full  capitalize">
               Our car body repair business{" "}
               <span className="inline h-auto ml-2 ">
                 <Direction />
               </span>
             </p>
-            Addresses the major problem of accidents and collisions that can
-            damage the exterior of a vehicle, leaving it in need of repair.
+            <div className="w-screen flex flex-col relative text-gray-200 justify-center xl:items-start xl:w-full ">
+              <span className="max-w-72 xl:w-full text-sm">
+                Addresses the major problem of accidents and collisions that can
+                damage the exterior of a vehicle, leaving it in need of repair.
+              </span>
+            </div>
           </div>
-          <div className=" xl:w-2/5 relative text-gray-400 mt-4 xl:mt-0">
-            <span className="text-gray-200 text-sm">
+          <div className="items-center flex flex-col xl:w-2/5 relative text-gray-400 mt-4 mb-5 xl:mt-5 h-full">
+            <span className="w-4/5 text-gray-200 text-sm">
               Ensuring that repaired vehicles meet safety standards and are
               returned to customers in a safe condition.
             </span>
@@ -233,7 +241,7 @@ const WhatThird = () => {
             </div>
           </div>
         </div>
-        <div className="m-auto h-80 w-full max-w-5xl">
+        <div className="m-auto h-screenVal xl:h-80 w-full max-w-6xl">
           <ImageSlider
             slides={slides}
             currentIndex={currentIndex}

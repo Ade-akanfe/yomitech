@@ -4,8 +4,8 @@ import Phone from "@/assets/icons/phone-solid";
 
 const Feedback = () => {
   return (
-    <div className="w-full h-screem bg-deep_blue flex flex-col justify-center items-center pt-10 pb-10">
-      <div className="w-11/12 xl:w-3/5 h-auto flex justify-center items-center flex-col bg-gray-950 curve_left border-white border-2 rounded-tr-xl rounded-bl-xl  ">
+    <div className="w-full h-screem bg-deep_blue flex flex-col justify-center items-center pt-10 pb-10 ">
+      <div className="w-11/12 xl:w-3/5 max-w-6xl h-auto flex justify-center items-center flex-col bg-gray-950 curve_left border-white border-2 rounded-tr-xl rounded-bl-xl  ">
         <p className="text-full text-xl xl:text-3xl text-white my-5 ">
           Contact Details
         </p>

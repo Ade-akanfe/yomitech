@@ -8,8 +8,8 @@ import { useState } from "react";
 const HeaderComponent = () => {
   const [open, setOPen] = useState(false);
   return (
-    <div className="w-full flex flex-row justify-evenly auto bg-deep_blue z-50 relative">
-      <div className="h-20 w-9/12 xl:w-1/2 flex items-center justify-between xl:justify-center">
+    <div className="w-full  flex flex-row justify-evenly auto bg-deep_blue z-50 relative">
+      <div className="h-20 w-9/12 max-w-2xl xl:w-1/2 flex items-center justify-between xl:justify-center">
         <div className="w-full xl:w-1/2 flex items-center">
           <div className="relative  h-8 w-10  xl:h-12 xl:w-14 mr-2 justify-center items-center">
             <Image
@@ -30,7 +30,7 @@ const HeaderComponent = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 hidden xl:flex justify-end ">
+      <div className="w-1/2 hidden xl:flex justify-end max-w-3xl">
         <nav className="h-full w-full flex items-center justify-evenly ">
           <Link href="#/" className="text-white text-base">
             Home
