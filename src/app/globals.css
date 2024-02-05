@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+
 .curve {
   border-top-left-radius: 5rem;
   border-bottom-right-radius: 4rem !important;
 }
-.curve_left{
+.curve_left {
   border-top-right-radius: 5rem !important;
   border-bottom-left-radius: 4rem;
 }

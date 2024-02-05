@@ -25,7 +25,9 @@ export default function Home() {
           <WhatSecond />
         </a>
       </div>
-      <WhatThird />
+      <div className="overflow-hidden w-full h-full">
+        <WhatThird />
+      </div>
       <div>
         <a id="contact"></a>
         <Feedback />

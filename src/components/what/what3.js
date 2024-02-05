@@ -241,7 +241,7 @@ const WhatThird = () => {
             </div>
           </div>
         </div>
-        <div className="m-auto h-screenVal xl:h-80 w-full max-w-6xl">
+        <div className="m-auto h-screenVal xl:h-80 landscape:min-h-5xl landscape:w-2/3 w-full max-w-6xl">
           <ImageSlider
             slides={slides}
             currentIndex={currentIndex}

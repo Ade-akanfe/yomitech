@@ -66,7 +66,7 @@ const What = () => {
         </div>
         <div className="h-3 block xl:hidden"></div>
         <div className="w-full h-full flex xl:hidden flex-row flex-wrap justify-center items-center">
-          <div className="w-5/12 h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 ">
+          <div className="w-5/12 max-w-xs xl:w-3/12 h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950 ">
             <p className="w-4/5 xl:w-full flex xl:items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 flex justify-center items-center">
                 <HeadSet height="20" />
@@ -81,7 +81,7 @@ const What = () => {
             </p>
           </div>
           <span className="w-3"></span>
-          <div className="w-5/12 h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950">
+          <div className="w-5/12 max-w-xs xl:w-3/12 h-60 flex justify-center items-center flex-col border-2 rounded-md bg-gray-950">
             <p className="w-4/5 xl:w-full flex xl:items-center xl:justify-center mb-6 mt-2 ">
               <span className="rounded-full bg-purple h-10 w-10 flex justify-center items-center">
                 <Seedling height="20" />
