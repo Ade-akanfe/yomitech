@@ -33,7 +33,7 @@ const Footer = () => {
             Offer a range of repair options at different price points to
             accommodate customers with varying budgets.
           </div>
-          <div className="text-gray-400 text-lg xl:text-xl mb-6 lowercase">
+          <div className="text-gray-400 text-lg xl:text-xl mb-6 capitalize">
             Unit 8, Cobham Business Centre Off Cobham Road, Birmingham, West
             Midlands, United Kingdom. B9 4UP
           </div>

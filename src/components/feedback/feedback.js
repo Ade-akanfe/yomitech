@@ -13,7 +13,7 @@ const Feedback = () => {
           <span className="rounded-3xl bg-purple h-12 w-12 xl:h-14 xl:w-14 flex justify-center items-center">
             <Location />
           </span>
-          <span className="text-white xl:text-xl my-2 w-11/12">
+          <span className="text-white xl:text-xl my-2 w-11/12 capitalize">
             Unit 8, Cobham Business Centre Off Cobham Road, Birmingham, West
             Midlands, United Kingdom. B9 4UP
           </span>
