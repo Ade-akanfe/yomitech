@@ -2,36 +2,38 @@ import Envelope from "@/assets/icons/envelope-regular";
 import Location from "@/assets/icons/location-dot-solid";
 import Phone from "@/assets/icons/phone-solid";
 
-const Feedback = () => {
-  return (
-    <div className="w-full h-screem bg-deep_blue flex flex-col justify-center items-center pt-10 pb-10 ">
-      <div className="w-11/12 xl:w-3/5 max-w-6xl h-auto flex justify-center items-center flex-col bg-gray-950 curve_left border-white border-2 rounded-tr-xl rounded-bl-xl  ">
-        <p className="text-full text-xl xl:text-3xl text-white my-5 ">
-          Contact Details
-        </p>
-        <div className="flex justify-center items-center text-center flex-col">
-          <span className="rounded-3xl bg-purple h-12 w-12 xl:h-14 xl:w-14 flex justify-center items-center">
-            <Location />
-          </span>
-          <span className="text-white xl:text-xl my-2 w-11/12 capitalize">
-            Unit 8, Cobham Business Centre Off Cobham Road, Birmingham, West
-            Midlands, United Kingdom. B9 4UP
-          </span>
-        </div>
-        <div className="flex justify-center items-center text-center flex-col">
-          <span className="rounded-3xl bg-purple h-12 w-12 xl:h-14 xl:w-14  flex justify-center items-center">
-            <Envelope />
-          </span>
-          <span className="text-white xl:text-xl my-2">INFO@YOMTECH.CO.UK</span>
-        </div>
-        <div className="flex justify-center items-center text-center flex-col">
-          <span className="rounded-3xl bg-purple h-12 w-12 xl:h-14 xl:w-14  flex justify-center items-center">
-            <Phone />
-          </span>
-          <span className="text-white xl:text-xl my-2">+447538733798</span>
-        </div>
-      </div>
+const Feedback = () => (
+  <div className="contact-cards">
+    <a className="contact-card" href="tel:+447538733798">
+      <span aria-hidden="true">
+        <Phone />
+      </span>
+      <span>
+        <small>Call us</small>
+        <strong>+44 7538 733798</strong>
+      </span>
+    </a>
+    <a className="contact-card" href="mailto:info@yomtech.co.uk">
+      <span aria-hidden="true">
+        <Envelope />
+      </span>
+      <span>
+        <small>Email us</small>
+        <strong>info@yomtech.co.uk</strong>
+      </span>
+    </a>
+    <div className="contact-card">
+      <span aria-hidden="true">
+        <Location />
+      </span>
+      <span>
+        <small>Visit our workshop</small>
+        <strong>
+          Unit 8, Cobham Business Centre, Off Cobham Road, Birmingham B9 4UP
+        </strong>
+      </span>
     </div>
-  );
-};
+  </div>
+);
+
 export default Feedback;
